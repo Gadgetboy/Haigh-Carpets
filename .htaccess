@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^haighscarpets\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.haighscarpets\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/www\.haighscarpets\.com" [R=301,L]
+
